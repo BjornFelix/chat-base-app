@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: BjornFelix/chat-base-app:auth
+        image: bjornFelix/chat-base-app:auth
         ports:
           - containerPort: 3000
             name: http-web-svc
